@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/Navkalkulator"
+        android:icon="@drawable/ic_action_kalkulator"
+        android:title="calculator" />
+    <item
+        android:id="@+id/Navprofile"
+        android:icon="@drawable/ic_action_user"
+        android:title="profile" />
+    <item
+        android:id="@+id/Navstudy"
+        android:icon="@drawable/ic_action_study"
+        android:title="study" />
+</menu>
