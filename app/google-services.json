@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "541510717353",
+    "firebase_url": "https://faraid-fb57b.firebaseio.com",
+    "project_id": "faraid-fb57b",
+    "storage_bucket": "faraid-fb57b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541510717353:android:d2ee41f9a89abde14b7eb8",
+        "android_client_info": {
+          "package_name": "com.example.faraid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541510717353-tslomdqb8poq1i3ci328vind599tu404.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7gmtP01RDu_mUTmZI9XL-81HnekXH-wc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541510717353-tslomdqb8poq1i3ci328vind599tu404.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
