@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/mobile_navigation"
+            app:startDestination="@id/studyFragment">
+
+    <fragment
+            android:id="@+id/studyFragment"
+            android:name="com.example.faraid.FragmentStudyActivity"
+            android:label="DashboardFragment" />
+    <fragment
+            android:id="@+id/kalkulatorFragment"
+            android:name="com.example.faraid.FragmentKalkulatorActivity"
+            android:label="HistoryFragment" />
+    <fragment
+            android:id="@+id/profileFragment"
+            android:name="com.example.faraid.FragmentProfilActivity"
+            android:label="ProfileFragment" />
+</navigation>
