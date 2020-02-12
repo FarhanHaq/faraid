@@ -11,16 +11,12 @@
     android:gravity="center"
     android:layout_gravity="center">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="20dp"
-            android:layout_marginTop="30dp">
+            android:padding="10dp"
+            android:layout_marginTop="10dp">
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -31,17 +27,11 @@
                     android:textColor="@color/whiteTextColor"
                     android:text="Here’s\nyour first\nstep with \nus! "/>
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_login_hero"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentRight="true"/>
             </RelativeLayout>
             <androidx.cardview.widget.CardView
+                android:layout_marginTop="25dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
                 app:cardBackgroundColor="@color/whiteTextColor"
                 app:cardCornerRadius="10dp">
 
@@ -157,8 +147,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp">
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp">
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -172,7 +162,6 @@
 
 
         </LinearLayout>
-    </ScrollView>
     <View
         android:layout_marginTop="20dp"
         android:layout_alignParentTop="true"
